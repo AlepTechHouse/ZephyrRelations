@@ -20,6 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
     <PackageReference Include="OpenTelemetry.Exporter.console" Version="1.7.0" />
     <PackageReference Include="OpenTelemetry.Exporter.jaeger" Version="1.5.1" />
     <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.7.0" />
